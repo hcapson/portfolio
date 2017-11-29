@@ -87,3 +87,13 @@ link a:hover {
     Looping background banner.
   </video>
 </div>
+
+
+
+gochujang
+
+
+.grid {
+  margin: 0;
+  padding-left: 0;
+}

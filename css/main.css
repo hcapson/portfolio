@@ -10,7 +10,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   color: black;
-  font-family: "Anton", sans-serif;
 }
 
 *, *::before, *::after {
@@ -54,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffe848;
+  color: #ed1b1b;
 
   transition: all 0.3s ease-in;
 
@@ -62,7 +61,7 @@ nav a:hover {
 }
 
 nav a:focus {
-  color: #ffe848;
+  color: #ed1b1b;
   border-right: solid 2px
 }
 
@@ -72,7 +71,8 @@ nav #current {
 }
 
 .logo {
-  width: 8%;
+  width: 6rem;
+  height: 6rem;
   margin-left: 20px;
   padding-top: 12px;
   padding-bottom: 10px;
@@ -101,10 +101,7 @@ nav #current {
   display: inline-block;
   position: absolute;
   z-index: 1;
-  text-align: center;
-  transition: all 500ms linear;
   padding-top: 300px;
-  padding-right: 30px;
 }
 
 .social a:hover {
@@ -112,7 +109,7 @@ nav #current {
 }
 
 .insta {
-  width: 40px;
+  width: 50px;
   list-style-type: none;
   text-decoration: none;
   padding-left: 5px;
@@ -126,7 +123,7 @@ nav #current {
 }
 
 .linked {
-  width: 40px;
+  width: 50px;
   list-style-type: none;
   text-decoration: none;
   padding-left: 5px;
@@ -134,7 +131,7 @@ nav #current {
 }
 
 .mail {
-  width: 40px;
+  width: 50px;
   list-style-type: none;
   text-decoration: none;
   padding-left: 5px;
@@ -154,7 +151,7 @@ nav #current {
   filter: #ffe320;
 }
 
-.sub{
+.sub {
   letter-spacing: 5px;
   line-height: 1;
   font-size: 18px;
@@ -163,19 +160,57 @@ nav #current {
   font-weight: bold;
 }
 
-.sub-2{
+.description {
+  font-family: "Slabo 27px" serif;
+  text-align: left;
+  font-size: 16px;
+}
+
+.sub-2 {
   letter-spacing: 1px;
   line-height: 1;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
+  font-weight: 600;
+}
+
+.sub-3 {
+  letter-spacing: 1px;
+  line-height: 3;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
+}
+
+.portfolio-section {
+  background-color: #E4E5E5;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer-text {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 5px;
+}
+
+.logo-2 {
+  width: 30px;
+}
+
+.text-main {
+  font-family: "Slabo 27px" serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 @media only screen and (min-width: 50em) {
   .logo {
-      width: 4%;
-      padding-top: 20px;
+
   }
 }
 

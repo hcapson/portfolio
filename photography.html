@@ -9,84 +9,81 @@
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Anton|Open+Sans:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 </head>
 <body>
-  <ul class="skip-links">
-    <li>
-      <a href="#main">Jump to main content</a>
-    </li>
-    <li>
-      <a href="#nav">Jump to navigation</a>
-    </li>
-  </ul>
 
   <main>
     <header class="header" role="banner" id="top">
       <div class="nav" role="navigation" id="nav">
         <div class="grid grid-middle">
-          <div class="unit unit-xs-1 s-1 unit-m-1-2 unit-l-1-2">
-            <img class="logo" src="images/j-logo.svg" alt="">
           </div>
           <nav class="unit xs-1 s-1 m-1 l-1">
             <ul class="push-0 list-group">
               <li>
-                <a href="index.html">Portfolio</a>
+                <a itemprop="porfolio" href="index.html">Portfolio</a>
              </li>
-              <li class="page-rec">
-                <a href="photography.html">Photography</a>
+              <li>
+                <a itemprop="photography" href="photography.html">Photography</a>
               </li>
               <li>
-                <a href="contact.html">About</a>
+                <a itemprop"contact" href="contact.html">About</a>
               </li>
             </ul>
           </nav>
         </div>
       </div>
+
       <div class="unit xs-1-4 s-1 m-1 l-1 grid">
-        <h1 class="text-center"><br> <span class="sub text-center bold"> Photography </span></h1>
+        <h1 itemprop="title" class="text-center"><br> <span class="sub text-center bold"> Photography </span></h1>
       </div>
 
       <section class="gallery">
           <div class="grid">
             <div class="unit xs-1 s-1 m-1-2 l-1-3 island">
               <div class="picture padding">
-                <img class="hover-box img-flex pad-t" src="images/photo-01.jpg" alt="">
-                <h2 class="push-1-4 gutter-2"></h2>
+                <img itemprop="image" class="hover-box img-flex pad-t" src="images/photo-01.jpg" alt="">
               </div>
             </div>
 
             <div class="unit xs-1 s-1 m-1-2 l-1-3 island">
               <div class="picture padding">
-                <img class="hover-box img-flex pad-t" src="images/photo-02.jpg" alt="">
-                <h2 class="push-1-4 gutter-2"></h2>
+                <img itemprop="image" class="hover-box img-flex pad-t" src="images/photo-02.jpg" alt="">
               </div>
             </div>
 
             <div class="unit xs-1 s-1 m-1-2 l-1-3 island">
               <div class="picture padding">
-                <img class="hover-box img-flex pad-t" src="images/night.jpg" alt="">
-                <h2 class="push-1-4 gutter-2"></h2>
+                <img itemprop="image" class="hover-box img-flex pad-t" src="images/night.jpg" alt="">
               </div>
             </div>
 
             <div class="unit xs-1 s-1 m-1-2 l-1-3 island">
               <div class="picture padding">
-                <img class="hover-box img-flex pad-t" src="images/dog.jpg" alt="">
-                <h2 class="push-1-4 gutter-2"></h2>
+                <img itemprop="image" class="hover-box img-flex pad-t" src="images/dog.jpg" alt="">
               </div>
             </div>
 
             <div class="unit xs-1 s-1 m-1-2 l-1-3 island">
               <div class="picture padding">
-                <img class="hover-box img-flex pad-t" src="images/kell.jpg" alt="">
-                <h2 class="push-1-4 gutter-2"></h2>
+                <img itemprop="image" class="hover-box img-flex pad-t" src="images/kell.jpg" alt="">
               </div>
             </div>
 
             <div class="unit xs-1 s-1 m-1-2 l-1-3 island">
               <div class="picture padding">
-                <img class="hover-box img-flex pad-t" src="images/fruit.jpg" alt="">
-                <h2 class="push-1-4 gutter-2"></h2>
+                <img itemprop="image" class="hover-box img-flex pad-t" src="images/fruit.jpg" alt="">
               </div>
             </div>
           </div>
+
+          <footer id="data-author" itemprop="author" class="grid">
+            <div class="unit xs-1 text-center pad-t">
+              <img itemprop="image"class="logo-2" src="images/j-logo.svg" alt="">
+            </div>
+            <div class="footer-text unit xs-1 text-center pad-b-1-2">
+              <small itemprop="name">©Hayley Capson 2017</small>
+            </div>
+          </footer>
+        </body>
+        </html>
