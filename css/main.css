@@ -218,11 +218,20 @@ text-align: center;
 display: none;
 justify-content: center;
 align-items: center;
-
 }
 
 .picture-link:hover .picture-box {
   display: flex;
+}
+
+.title-text {
+  letter-spacing: 2px;
+  line-height: 1.5;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
 }
 
 @media only screen and (min-width: 50em) {
