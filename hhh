@@ -97,3 +97,24 @@ gochujang
   margin: 0;
   padding-left: 0;
 }
+
+
+
+
+banner
+
+<div class="social unit xs-1 text-center">
+  <a itemprop="instagram" class="link" href="https://www.instagram.com/hc_graphicdesign/">
+    <img itemprop="image" class="insta hover-box-2" src="images/insta.png">
+  </a>
+  <a itemprop="linkedin" class="link" href="https://www.linkedin.com/in/hayley-capson-603733137/">
+    <img itemprop="image" class="linked" src="images/linked.png">
+  </a>
+  <a itemprop="mail"class="link" href="mailto:">
+    <img itemprop="images" class="mail" src="images/mail.png">
+  </a>
+</div>
+
+<div class="intro">
+  <img itemprop="image" class="banner" src="images/red-1.jpg" alt="#">
+</div>
