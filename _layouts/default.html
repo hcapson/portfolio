@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <title>Hayley Capson</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 </head>
@@ -20,13 +20,13 @@
           <nav class="unit xs-1 s-1 m-1 l-1">
             <ul class="push-0 list-group">
               <li>
-                <a itemprop="porfolio" href="index.html">Portfolio</a>
+                <a itemprop="porfolio"class="pad-t" href="{{site.baseurl}}/">Portfolio</a>
              </li>
               <li>
-                <a itemprop="photography" href="photography.html">Photography</a>
+                <a itemprop="photography" href="{{site.baseurl}}/photography/">Photography</a>
               </li>
               <li>
-                <a itemprop"contact" href="contact.html">About</a>
+                <a itemprop"contact" href="{{site.baseurl}}/contact/">About</a>
               </li>
             </ul>
           </nav>
@@ -37,7 +37,15 @@
 
     <footer id="data-author" itemprop="author" class="grid">
       <div class="unit xs-1 text-center pad-t">
-        <img itemprop="image" class="logo-2" src="images/j-logo.svg" alt="">
+        <a itemprop="instagram" class="" href="https://www.instagram.com/hc_graphicdesign/">
+          <img itemprop="image" class="logo-2" src="{{site.baseurl}}/images/insta-red.png" alt="">
+        </a>
+        <a itemprop="linkedin" class="" href="https://www.linkedin.com/in/hayley-capson-603733137/">
+          <img itemprop="image" class="logo-2" src="{{site.baseurl}}/images/linked-red.png" alt="">
+        <a>
+        <a itemprop="mail"class="link" href="mailto:">
+          <img itemprop="image" class="logo-2" src="{{site.baseurl}}/images/mail-red.png" alt="">
+        </a>
       </div>
       <div class="footer-text unit xs-1 text-center pad-b-1-2">
         <small itemprop="name">©Hayley Capson 2017</small>

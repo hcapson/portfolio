@@ -31,7 +31,7 @@ nav {
   list-style-type: none;
   text-align: right;
   text-decoration: none;
-  background-color: black;
+  background-color: #000000;
 }
 
 nav a {
@@ -57,17 +57,17 @@ nav a:hover {
 
   transition: all 0.3s ease-in;
 
-  border-right: solid 2px
+  border-right: solid 3px
 }
 
 nav a:focus {
   color: #ed1b1b;
-  border-right: solid 2px
+  border-right: solid 3px
 }
 
 nav #current {
   color: #40c1d8;
-  border-right: solid 2px
+  border-right: solid 3px
 }
 
 .logo {
