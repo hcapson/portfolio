@@ -138,7 +138,7 @@ nav #current {
   padding-right: 5px;
 }
 
-.hover-box {
+.hover-box img {
   filter: grayscale(100%);
   transition: all .2s linear;
 }
@@ -200,6 +200,7 @@ footer {
 
 .logo-2 {
   width: 30px;
+  text-decoration: none;
 }
 
 .text-main {
@@ -223,6 +224,14 @@ align-items: center;
 .picture-link:hover .picture-box {
   display: flex;
 }
+.picture-link img {
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.picture-link:hover img {
+  filter: grayscale(0);
+}
 
 .title-text {
   letter-spacing: 2px;
@@ -239,12 +248,174 @@ align-items: center;
   padding-right: 80px;
 }
 
-@media only screen and (min-width: 50em) {
-  .logo {
-
-  }
-}
-
 @media only screen and (min-width: 25em) {
+  .nav {
+    font-weight: 400;
+    list-style-type: none;
+    text-align: right;
+    text-decoration: none;
+    background-color: #000000;
   }
-}
+
+  .nav a {
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-size: 11px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    display: block;
+
+    color: #ed1b1b;
+    text-decoration: none;
+    text-align: right;
+
+    border-right: transparent solid 2px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .nav a:focus {
+    color: #ed1b1b;
+    border-right: solid 3px
+  }
+
+  .nav #current {
+    color: #40c1d8;
+    border-right: solid 3px
+  }
+
+@media only screen and (min-width: 38em) {
+  .nav {
+    font-weight: 400;
+    list-style-type: none;
+    text-align: right;
+    text-decoration: none;
+    background-color: #000000;
+  }
+
+  .nav a {
+    letter-spacing: 3px;
+    line-height: 1.5;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    display: block;
+
+    color: white;
+    text-decoration: none;
+    text-align: right;
+
+    border-right: transparent solid 2px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .nav a:hover {
+    color: #ed1b1b;
+
+    transition: all 0.3s ease-in;
+
+    border-right: solid 3px
+  }
+
+  .nav a:focus {
+    color: #ed1b1b;
+    border-right: solid 3px
+  }
+
+  .nav #current {
+    color: #40c1d8;
+    border-right: solid 3px
+  }
+
+  @media only screen and (min-width: 60em) {
+    .nav {
+      font-weight: 400;
+      list-style-type: none;
+      text-align: right;
+      text-decoration: none;
+      background-color: #000000;
+    }
+
+    .nav a {
+      letter-spacing: 3px;
+      line-height: 1.5;
+      font-size: 14px;
+      font-family: "Open Sans", sans-serif;
+      text-transform: uppercase;
+      display: block;
+
+      color: white;
+      text-decoration: none;
+      text-align: right;
+
+      border-right: transparent solid 2px;
+      padding-right: 15px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+    }
+
+    .nav a:hover {
+      color: #ed1b1b;
+
+      transition: all 0.3s ease-in;
+
+      border-right: solid 3px
+    }
+
+    .nav a:focus {
+      color: #ed1b1b;
+      border-right: solid 3px
+    }
+
+    .nav #current {
+      color: #40c1d8;
+      border-right: solid 3px
+    }
+
+    @media only screen and (min-width: 90em) {
+      .nav {
+        font-weight: 400;
+        list-style-type: none;
+        text-align: right;
+        text-decoration: none;
+        background-color: #000000;
+      }
+
+      .nav a {
+        letter-spacing: 3px;
+        line-height: 1.5;
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+        text-transform: uppercase;
+        display: block;
+
+        color: white;
+        text-decoration: none;
+        text-align: right;
+
+        border-right: transparent solid 2px;
+        padding-right: 15px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+      }
+
+      .nav a:hover {
+        color: #ed1b1b;
+
+        transition: all 0.3s ease-in;
+
+        border-right: solid 3px
+      }
+
+      .nav a:focus {
+        color: #ed1b1b;
+        border-right: solid 3px
+      }
+
+      .nav #current {
+        color: #40c1d8;
+        border-right: solid 3px
+      }
