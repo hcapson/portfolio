@@ -60,7 +60,8 @@ nav a:hover {
   border-right: solid 3px
 }
 
-nav a:focus {
+nav a:focus, nav a:active {
+  outline: 0;
   color: #ed1b1b;
   border-right: solid 3px
 }
@@ -229,7 +230,20 @@ align-items: center;
   transition: all .2s linear;
 }
 
-.picture-link:hover img {
+.picture-link:hover {
+  filter: grayscale(0);
+}
+
+.hover-box:hover {
+  display: flex;
+}
+
+.hover-box {
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.hover-box:hover img {
   filter: grayscale(0);
 }
 
