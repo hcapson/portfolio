@@ -118,3 +118,13 @@ banner
 <div class="intro">
   <img itemprop="image" class="banner" src="images/red-1.jpg" alt="#">
 </div>
+
+
+
+
+<div class="unit xs-1-4 s-1 m-1 l-1 grid">
+  <h1 itemprop="title" class="text-center"><br> <span class="sub text-center bold"> About Me </span></h1>
+</div>
+
+<div class="">
+  <img itemprop="image" class="logo-2" src="{{site.baseurl}}/images/about-pic.jpg">
