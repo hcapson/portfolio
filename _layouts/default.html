@@ -18,15 +18,18 @@
       <div class="nav" role="navigation" id="nav">
         <div class="grid grid-middle">
           <nav class="unit xs-1 s-1 m-1 l-1">
+            {% unless page.url == "/"%}
+            <img class="wordmark" src="{{site.baseurl}}/images/logoo.png">
+            {% endunless %}
             <div class="nav-logo">
             <ul class="push-0 list-group">
               <li>
                 <a itemprop="porfolio"class="" href="{{site.baseurl}}/">Portfolio</a>
-             </li>
+              </li>
               <li>
                 <a itemprop="photography" href="{{site.baseurl}}/photography/">Photography</a>
               </li>
-              <li class="pad-b">
+              <li class="">
                 <a itemprop"contact" href="{{site.baseurl}}/contact/">About</a>
               </li>
             </ul>
@@ -37,7 +40,7 @@
 {{content}}
 
   <footer id="data-author" itemprop="author" class="grid">
-    <div class="unit xs-1 text-center pad-t">
+    <div class="unit xs-1 text-center pad-t pad-b">
       <a itemprop="instagram" class="link" href="https://www.instagram.com/hc_graphicdesign/">
         <img itemprop="image" class="logo-2" src="{{site.baseurl}}/images/insta-red.png" alt="">
       </a>
@@ -48,7 +51,7 @@
         <img itemprop="image" class="logo-2" src="{{site.baseurl}}/images/mail-red.png" alt="">
       </a>
     </div>
-    <div class="footer-text unit xs-1 text-center pad-b-1-2">
+    <div class="footer-text unit xs-1 text-center">
       <small itemprop="name">©Hayley Capson 2017</small>
     </div>
   </footer>

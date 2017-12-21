@@ -82,6 +82,12 @@ nav #current {
   z-index: 2;
 }
 
+.wordmark{
+  width: 120px;
+  position: absolute;
+  left: 1em;
+  top: .8em;
+}
 .grid-middle .unit {
   vertical-align: middle;
 }
@@ -162,15 +168,19 @@ nav #current {
 }
 
 .description {
-  font-family: "Slabo 27px" serif;
+  font-family: "Open Sans", sans-serif;
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  padding-top: .5em;
+  padding-bottom: .25em;
+  margin-bottom: 0.2em;
 }
 
 .sub-2 {
   letter-spacing: 1px;
   line-height: 1;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
@@ -178,7 +188,7 @@ nav #current {
 
 .sub-3 {
   letter-spacing: 1px;
-  line-height: 3;
+  line-height: 2;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -186,7 +196,7 @@ nav #current {
 }
 
 .portfolio-section {
-  background-color: #E4E5E5;
+  background-color: #F1F2F2;
 }
 
 footer {
@@ -205,9 +215,9 @@ footer {
 }
 
 .text-main {
-  font-family: "Slabo 27px" serif;
+  font-family: "Open Sans" sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 .picture-box {
@@ -230,7 +240,7 @@ align-items: center;
   transition: all .2s linear;
 }
 
-.picture-link:hover {
+.picture-link:hover img {
   filter: grayscale(0);
 }
 
